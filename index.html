@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đêm 3 Giờ Sáng Trong Vương Quốc Bé Sa — Câu chuyện cảm động về bệnh tay chân miệng</title>
+  <meta name="description" content="Câu chuyện cảm động về bé Sa 8 tháng tuổi chiến đấu với virus tay chân miệng, kể từ góc nhìn của Sức Đề Kháng bên trong cơ thể con. Một câu chuyện được kể bằng nhịp tim.">
+  <meta name="keywords" content="tay chân miệng, bé Sa, câu chuyện cảm động, sức đề kháng, em bé, ba mẹ">
+  <meta name="author" content="Ba mẹ bé Sa">
+  <meta name="theme-color" content="#0a0e27">
+  <meta property="og:title" content="Đêm 3 Giờ Sáng Trong Vương Quốc Bé Sa">
+  <meta property="og:description" content="Câu chuyện cảm động được kể bằng nhịp tim của một em bé 8 tháng tuổi. Viết cho những ba mẹ đang thức trắng đêm bên giường bệnh.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="images/hero-kingdom.webp">
+  <meta property="og:locale" content="vi_VN">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>❤️</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Đêm 3 Giờ Sáng Trong Vương Quốc Bé Sa",
+    "description": "Câu chuyện cảm động về bé Sa 8 tháng tuổi chiến đấu với bệnh tay chân miệng",
+    "image": "images/hero-kingdom.webp",
+    "articleSection": "Sức khỏe trẻ em",
+    "inLanguage": "vi"
+  }
+  </script>
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader">
+  <div class="preloader-heart"></div>
+  <p class="preloader-text">Đang mở vương quốc...</p>
+</div>
+
+<!-- Progress Bar -->
+<div class="progress-bar"></div>
+
+<!-- Particles -->
+<canvas id="particles"></canvas>
+
+<!-- Chapter Navigation -->
+<nav class="chapter-nav" aria-label="Điều hướng chương">
+  <button class="chapter-dot active" data-target="hero" data-label="Mở đầu" aria-label="Mở đầu"></button>
+  <button class="chapter-dot" data-target="ch1" data-label="Cuộc xâm lăng" aria-label="Chương 1"></button>
+  <button class="chapter-dot" data-target="ch2" data-label="Chiến trường đau nhất" aria-label="Chương 2"></button>
+  <button class="chapter-dot" data-target="ch3" data-label="Đói mà không ăn được" aria-label="Chương 3"></button>
+  <button class="chapter-dot" data-target="ch4" data-label="Bão tố vương quốc" aria-label="Chương 4"></button>
+  <button class="chapter-dot" data-target="ch5" data-label="Trận quyết chiến" aria-label="Chương 5"></button>
+  <button class="chapter-dot" data-target="ch6" data-label="Bức thư & Lời hứa" aria-label="Chương 6"></button>
+  <button class="chapter-dot" data-target="ch7" data-label="Ngày Sa cười lại" aria-label="Chương 7"></button>
+</nav>
+
+<!-- Audio Control -->
+<button class="audio-control" id="audio-btn" title="Bật/tắt nhạc nền">
+  <span class="audio-icon">🎵</span>
+  <span class="audio-label">Nhạc</span>
+</button>
+
+<main>
+<!-- ==================== HERO ==================== -->
+<section class="story-section hero" data-chapter="hero" id="hero">
+  <div class="section-content" style="max-width:800px;">
+    <div class="hero-prologue" data-hero-animate style="transition: opacity 0.8s ease, transform 0.8s ease;">
+      <p>Có những câu chuyện được kể bằng giọng nói.</p>
+      <p>Có những câu chuyện được kể bằng nước mắt.</p>
+      <p>Còn câu chuyện này — được kể bằng nhịp tim.</p>
+    </div>
+    <h1 class="hero-title" data-hero-animate style="transition: opacity 0.8s ease 0.4s, transform 0.8s ease 0.4s;">
+      <span>Đêm 3 Giờ Sáng</span>
+      Trong Vương Quốc Bé Sa
+    </h1>
+    <p class="hero-subtitle" data-hero-animate style="transition: opacity 0.8s ease 0.8s, transform 0.8s ease 0.8s;">
+      Nhịp tim của một em bé 8 tháng tuổi. Nhỏ xíu. Mong manh. Nhưng không hề yếu đuối.
+    </p>
+    <p class="hero-subtitle" data-hero-animate style="transition: opacity 0.6s ease 1s, transform 0.6s ease 1s; font-size:0.8rem; letter-spacing:0.1em; color:var(--text-muted);">
+      ⏱ Khoảng 15 phút đọc
+    </p>
+    <div class="hero-image-container" data-hero-animate style="transition: opacity 1s ease 1.2s, transform 1s ease 1.2s;">
+      <img src="images/hero-kingdom.webp" alt="Vương quốc tí hon bên trong cơ thể bé Sa" loading="eager">
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span>Cuộn để đọc</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- ==================== CHAPTER 1: CUỘC XÂM LĂNG ==================== -->
+<section class="story-section chapter-section" data-chapter="ch1" id="ch1">
+  <div class="section-content">
+    <div class="chapter-header fade-in">
+      <span class="chapter-number">Chương I</span>
+      <h2 class="chapter-title">Cuộc Xâm Lăng Lúc 3 Giờ Sáng</h2>
+    </div>
+
+    <p class="story-text fade-in">Tôi là Sức Đề Kháng của Sa.</p>
+    <p class="story-text fade-in">Nếu bạn chưa từng nghe tên tôi, cũng dễ hiểu thôi. Tôi không xuất hiện trong ảnh gia đình. Không có mặt trong giấy khai sinh. Không ai gọi tôi ra ăn cơm.</p>
+    <p class="story-text fade-in">Tôi sống âm thầm bên trong cơ thể bé Sa — một vương quốc bé xíu, mềm mại, còn thơm mùi sữa. Nơi mọi thứ đều đang học cách lớn lên: trái tim học cách đập mạnh hơn, lá phổi học cách thở sâu hơn, bàn tay học cách nắm lấy thế giới, và nụ cười đang học cách làm tan chảy mọi mệt nhọc của người lớn.</p>
+
+    <div class="divider"><span class="divider-icon">☽</span></div>
+
+    <p class="story-text fade-in">Đêm đó, vương quốc Sa đang ngủ. Trái tim con đập đều đều.</p>
+    <div class="heartbeat-text fade-in"><span>Thình thịch.</span> &nbsp; <span>Thình thịch.</span></div>
+    <p class="story-text fade-in">Đội bạch cầu gác đêm ngáp dài. Một anh đại thực bào đang dựa lưng vào tường thành, vừa ngủ gật vừa ôm cây chổi dọn rác sinh học.</p>
+    <p class="story-text fade-in">Tôi cũng vừa chợp mắt được một chút thì…</p>
+    <p class="story-text fade-in" style="font-size:1.4rem; font-weight:700; color:var(--crimson); text-align:center; letter-spacing:0.1em;">RÉT RÉT RÉT!</p>
+    <p class="story-text fade-in">Còi báo động rú lên khắp cơ thể.</p>
+
+    <div class="dialog hero-char fade-in">
+      <span class="speaker">Sức Đề Kháng</span>
+      "Biến gì? Vi khuẩn? Dị ứng? Hay Sa lại ăn nhầm cái gì?"
+    </div>
+    <div class="dialog fade-in">
+      <span class="speaker">Bạch cầu non</span>
+      "Không rõ! Nhiệt độ đang tăng! Cổ họng báo có kẻ lạ xâm nhập!"
+    </div>
+
+    <p class="story-text fade-in">Trên màn hình hiện ra một đám sinh vật nhỏ xíu, gai góc, mặt mày láo toét. Một con đội vương miện tím, bụng phệ, tay cầm cây quyền trượng bé bằng đầu tăm:</p>
+    <div class="dialog villain fade-in">
+      <span class="speaker">Virus Đại Vương</span>
+      "Anh em! Vương quốc này mới 8 tháng tuổi! Xông lên! Chiếm miệng trước! Rồi đánh ra da! Làm cho con sốt! Làm cho con đau!"
+    </div>
+
+    <div class="story-image fade-in">
+      <img src="images/virus-attack.webp" alt="Virus tay chân miệng tấn công vương quốc bé Sa" loading="lazy">
+    </div>
+
+    <p class="story-text fade-in">Tôi nghiến răng: <em>"Virus tay chân miệng."</em></p>
+    <p class="story-text fade-in">Cả phòng chỉ huy im lặng.</p>
+    <p class="story-text fade-in">"Đúng. Bọn này không đánh đẹp. Chúng đánh vào chỗ đau nhất: miệng, da, giấc ngủ, sức bú, và sự bình yên của ba mẹ."</p>
+
+    <div class="divider"><span class="divider-icon">🌡</span></div>
+
+    <p class="story-text fade-in" style="font-weight:600; color:var(--crimson);">7 giờ sáng — cơn sốt 39 độ.</p>
+    <p class="story-text fade-in">Lửa sốt bùng lên. Trong vương quốc Sa, nhiệt độ tăng nhanh như một trận cháy lan qua các cánh đồng.</p>
+
+    <div class="story-image fade-in">
+      <img src="images/fever-fire.webp" alt="Cơn sốt bùng cháy trong vương quốc bé Sa" loading="lazy">
+    </div>
+
+    <p class="story-text fade-in">Sa được đưa nhập viện. Bên ngoài, ba mẹ lo lắng. Bên trong, tôi thở phào: <em>"Đồng minh ngoài thành đã tới. Bác sĩ vào cuộc rồi."</em></p>
+
+    <div class="dialog fade-in">
+      <span class="speaker">Bạch cầu non</span>
+      "Đại tướng, sốt là mình đánh virus mà, sao lại phải hạ sốt?"
+    </div>
+
+    <p class="story-text fade-in">Tôi chỉ vào trái tim Sa đang đập nhanh hơn: "Sốt là vũ khí. Nhưng vũ khí mạnh quá có thể làm chính Sa mệt. Con còn nhỏ. Khi sốt cao, cơ thể con như một căn nhà nhỏ bị đốt lò quá nóng."</p>
+
+    <p class="story-text fade-in">Một phần rất nhỏ trong con vẫn muốn cựa quậy, vẫn muốn nhìn quanh, vẫn muốn được ba mẹ đùa. Nhưng cơn sốt kéo con xuống. Cơ thể con nặng như có ai đặt cả tảng đá lên người. Mắt con muốn mở mà không mở nổi. Tay con muốn với mà không với tới.</p>
+
+    <div class="pull-quote fade-in">Có. Cố giữ cho con qua cơn này.</div>
+  </div>
+</section>
+<!-- ==================== CHAPTER 2: CHIẾN TRƯỜNG ĐAU NHẤT ==================== -->
+<section class="story-section chapter-section" data-chapter="ch2" id="ch2">
+  <div class="section-content">
+    <div class="chapter-header fade-in">
+      <span class="chapter-number">Chương II</span>
+      <h2 class="chapter-title">Chiến Trường Đau Nhất</h2>
+    </div>
+
+    <p class="story-text fade-in">Virus bắt đầu dùng chiêu tàn nhẫn nhất. Chúng đánh vào miệng.</p>
+
+    <div class="stagger fade-in">
+      <p class="story-text">Trước kia, miệng Sa là cánh cổng ngọt ngào nhất vương quốc.</p>
+      <p class="story-text">Nơi sữa đi vào.</p>
+      <p class="story-text">Nơi tiếng cười bật ra.</p>
+      <p class="story-text">Nơi con ê a gọi đời bằng âm thanh chưa thành chữ.</p>
+      <p class="story-text">Nơi mà khi con mỉm cười, cả vương quốc đều rực sáng.</p>
+    </div>
+
+    <p class="story-text fade-in">Vậy mà giờ đây, nơi ấy đầy vết loét. Như một khu vườn hoa bị đốt cháy.</p>
+
+    <div class="story-image fade-in">
+      <img src="images/baby-pain.webp" alt="Em bé đau miệng không bú được" loading="lazy">
+    </div>
+
+    <div class="dialog fade-in">
+      <span class="speaker">Tế bào niêm mạc</span>
+      "Đau đến mức con đói mà không dám ăn."
+    </div>
+
+    <div class="stagger fade-in">
+      <p class="story-text">Một em bé 8 tháng tuổi không biết nói "miệng con rát lắm".</p>
+      <p class="story-text">Không biết nói "nuốt đau quá".</p>
+      <p class="story-text">Không biết nói "con đói nhưng con sợ bú".</p>
+      <p class="story-text emphasis">Con không có từ ngữ nào để diễn tả nỗi đau của mình.</p>
+      <p class="story-text">Con chỉ khóc.</p>
+    </div>
+
+    <div class="pull-quote fade-in">Và tiếng khóc ấy là câu dài nhất con có thể nói.</div>
+
+    <p class="story-text fade-in">Bên ngoài, Sa quấy không ngủ được. Bên trong, chúng tôi nghe tiếng khóc ấy như nghe tiếng thành trì nứt ra.</p>
+
+    <p class="story-text fade-in">Bác sĩ và y tá phải bôi thuốc vào miệng. Phù Thủy Gây Tê Miệng bước đến vùng loét, chạm nhẹ. Sa khóc.</p>
+
+    <div class="dialog fade-in">
+      <span class="speaker">Sức Đề Kháng</span>
+      "Vì con không hiểu. Với người lớn, đó là điều trị. Với Sa, đó là một nỗi sợ không tên."
+    </div>
+
+    <p class="story-text fade-in emphasis">Và tôi hiểu một điều: có những trận chiến mà ba mẹ đau hơn cả người bị thương. Vì người lớn đau thì còn hiểu lý do. Còn ba mẹ nhìn con đau mà không thể đau thay — nỗi đau ấy không có thuốc nào chữa.</p>
+
+    <div class="divider"><span class="divider-icon">🌙</span></div>
+
+    <p class="story-text fade-in">Vì đau miệng, sốt, mệt, bứt rứt — Sa không ngủ được. Đặt xuống là tỉnh. Bế thì ngủ chập chờn. Đêm dài như kéo mãi không hết.</p>
+    <p class="story-text fade-in">Bác sĩ chỉ định thuốc an thần. Người Ru Ngủ Áo Tím bước vào — áo choàng tím đậm, tay cầm chiếc đèn ngủ. Ông vung chiếc đèn ngủ. Một lớp sương tím lan ra. Sa ngủ. Ngủ rất sâu.</p>
+
+    <div class="dialog hero-char fade-in">
+      <span class="speaker">Sức Đề Kháng</span>
+      "Một em bé đau bệnh không hư vì cần được bế. Con chỉ đang cầu cứu bằng cách duy nhất con biết."
+    </div>
+
+    <p class="story-text fade-in">"Vì mỗi loại thuốc chỉ giúp một phần. Hạ sốt giúp giảm nóng. Gây tê giúp đỡ đau miệng. An thần giúp ngủ. Nhưng người phải đi qua toàn bộ trận chiến vẫn là Sa."</p>
+
+    <div class="pull-quote fade-in">Sa bé quá… Nhưng con không đi một mình.</div>
+  </div>
+</section>
+<!-- ==================== CHAPTER 3: ĐÓI MÀ KHÔNG ĂN ĐƯỢC ==================== -->
+<section class="story-section chapter-section" data-chapter="ch3" id="ch3">
+  <div class="section-content">
+    <div class="chapter-header fade-in">
+      <span class="chapter-number">Chương III</span>
+      <h2 class="chapter-title">Đói Mà Không Ăn Được</h2>
+    </div>
+
+    <p class="story-text fade-in">Hôm sau, điều tôi sợ đã đến. Sa không ăn được sữa nữa.</p>
+    <p class="story-text fade-in">Không phải vì con không đói. Con đói. Tôi biết. Dạ dày gửi tín hiệu lên: <em>"Có ai không? Tôi trống quá."</em></p>
+    <p class="story-text fade-in">Nhưng cổng miệng đau đến mức mỗi lần sữa chạm vào, Sa khóc.</p>
+
+    <div class="stagger fade-in">
+      <p class="story-text">Không phải vì không có sữa.</p>
+      <p class="story-text">Không phải vì không có ba mẹ.</p>
+      <p class="story-text">Mà vì cánh cổng dẫn vào vương quốc đã bị đốt cháy.</p>
+    </div>
+
+    <p class="story-text fade-in emphasis">Cả phòng chỉ huy im lặng. Không ai nói gì. Vì ai cũng biết: đói mà không ăn được là một nỗi buồn không cần lời.</p>
+
+    <div class="divider"><span class="divider-icon">💉</span></div>
+
+    <p class="story-text fade-in">Bác sĩ chỉ định truyền dịch. Nhưng để Cô Tiếp Tế Truyền Dịch đi vào, phải lấy ven. Và đó lại là một trận khác.</p>
+    <p class="story-text fade-in">Lần đầu, kim vào không thuận. Bị hỏng. Sa khóc. Tiếng khóc ấy làm cả vương quốc rung lên.</p>
+    <p class="story-text fade-in">Lần thứ hai, lại hỏng. Sa khóc nhiều hơn. Ba mẹ có lẽ đứng nhìn mà ruột gan thắt lại.</p>
+
+    <div class="dialog fade-in">
+      <span class="speaker">Đại thực bào</span>
+      "Cho tôi ra ngoài nói chuyện với cái kim đó được không?"
+    </div>
+    <div class="dialog hero-char fade-in">
+      <span class="speaker">Sức Đề Kháng</span>
+      "Không được. Kim không phải kẻ địch. Nó là con đường tiếp tế. Chỉ là tìm đường vào cơ thể Sa khó quá."
+    </div>
+
+    <p class="story-text fade-in">Sau cùng, đường truyền được thiết lập. Cô Tiếp Tế nói: <em>"Tôi không thay được vòng tay ba mẹ, không thay được sữa, không thay được giấc ngủ. Nhưng tôi giúp Sa không cạn kiệt trong lúc miệng còn đau."</em></p>
+
+    <div class="pull-quote fade-in">Cảm ơn ba mẹ Sa mới đúng. Vì nếu không có họ đưa con đến bệnh viện đúng lúc, tôi có muốn vào cũng không có cửa.</div>
+  </div>
+</section>
+<!-- ==================== CHAPTER 4: BÃO TỐ KHẮP VƯƠNG QUỐC ==================== -->
+<section class="story-section chapter-section" data-chapter="ch4" id="ch4">
+  <div class="section-content">
+    <div class="chapter-header fade-in">
+      <span class="chapter-number">Chương IV</span>
+      <h2 class="chapter-title">Bão Tố Khắp Vương Quốc</h2>
+    </div>
+
+    <p class="story-text fade-in">Trong khi miệng đau, sốt cao, ngủ rối loạn, thì ngoài da lại bắt đầu nổi nhiều mụn nước. Những nốt mụn phồng lên như những bong bóng đau nhức.</p>
+
+    <div class="dialog fade-in">
+      <span class="speaker">Chiến binh da</span>
+      "Đại tướng… ngứa. Rát. Căng. Khó chịu. Con không gãi được, chỉ biết khóc."
+    </div>
+
+    <p class="story-text fade-in">Ông Hồ Nước bước vào — tròn tròn màu trắng, tay cầm quạt, lưng đeo túi bột mát. Ông phủ một lớp mát lên vùng da đang nổi mụn.</p>
+
+    <div class="dialog fade-in">
+      <span class="speaker">Đại thực bào</span>
+      "Lần sau ông mặc đồ hình con vịt xem, có khi bé đỡ sợ."
+    </div>
+
+    <div class="story-image fade-in">
+      <img src="images/immune-army.webp" alt="Đội quân miễn dịch bảo vệ vương quốc bé Sa" loading="lazy">
+    </div>
+
+    <p class="story-text fade-in">Rồi Đội Kháng Sinh xuất hiện — mặc áo trắng xanh, cầm khiên có hình dấu cộng. Đội trưởng nói: <em>"Chúng tôi không diệt được virus đó. Chúng tôi đến để xử lý bọn vi khuẩn cơ hội đang rình rập."</em></p>
+
+    <div class="divider"><span class="divider-icon">✦</span></div>
+
+    <p class="story-text fade-in">Giữa tất cả những trận chiến đó, có một khoảnh khắc làm tôi nhớ mãi. Sa tỉnh ra một chút. Con nhìn quanh.</p>
+
+    <div class="stagger fade-in">
+      <p class="story-text">Có thể con muốn chơi. Một món đồ chơi nào đó. Một gương mặt quen thuộc. Một tiếng gọi. Một trò ú òa.</p>
+      <p class="story-text">Nhưng cơ thể con mệt quá. Sốt cao làm người con rã rời. Miệng đau làm con sợ bú. Da rát ngứa. Thuốc an thần để lại đôi mắt lờ đờ. Đường truyền làm con vướng víu. Những lần lấy ven khiến con sợ người lạ.</p>
+    </div>
+
+    <p class="story-text fade-in emphasis">Tôi nhìn Sa — một em bé 8 tháng tuổi — và nhớ rằng trước khi bệnh, con chỉ cần ba thứ: sữa, giấc ngủ, và vòng tay. Bệnh đã lấy cả ba.</p>
+
+    <div class="heartbeat-text fade-in"><span>Thình thịch.</span> &nbsp; <span>Thình thịch.</span></div>
+
+    <div class="dialog fade-in">
+      <span class="speaker">Bạch cầu non</span>
+      "Sao bệnh lại cướp mất những điều nhỏ vậy?"
+    </div>
+
+    <p class="story-text fade-in">"Bệnh thường không chỉ làm đau cơ thể. Nó lấy mất cảm giác bình thường. Với người lớn, bệnh là khó chịu. Với em bé, bệnh là cả thế giới bỗng trở nên xa lạ."</p>
+
+    <div class="pull-quote fade-in">Vậy mình phải trả lại thế giới bình thường cho Sa.</div>
+  </div>
+</section>
+<!-- ==================== CHAPTER 5: TRẬN QUYẾT CHIẾN ==================== -->
+<section class="story-section chapter-section" data-chapter="ch5" id="ch5">
+  <div class="section-content">
+    <div class="chapter-header fade-in">
+      <span class="chapter-number">Chương V</span>
+      <h2 class="chapter-title">Trận Quyết Chiến Trong Đêm</h2>
+    </div>
+
+    <p class="story-text fade-in">Đêm ấy, Sa quấy nhiều. Đặt xuống là tỉnh. Bế lên thì dịu. Đặt xuống lại khóc.</p>
+
+    <div class="stagger fade-in">
+      <p class="story-text">Ba mẹ chắc mỏi lắm. Có thể tay tê. Lưng đau. Mắt cay. Đầu óc rối bời.</p>
+      <p class="story-text">Vừa thương con, vừa bất lực, vừa muốn hỏi: "Rốt cuộc con đang cảm thấy gì?"</p>
+    </div>
+
+    <div class="stagger fade-in">
+      <p class="story-text emphasis">Con cảm thấy đau ở miệng. Rát ở da. Nóng ở người. Mệt trong xương. Lạ lẫm vì thuốc. Sợ vì người lạ. Khó chịu vì kim truyền. Bất an khi rời vòng tay quen thuộc.</p>
+      <p class="story-text emphasis">Và con chưa có lời nào để kể. Nên con khóc.</p>
+    </div>
+
+    <p class="story-text fade-in">Trong vương quốc Sa, tiếng khóc biến thành một cơn mưa. Không phải mưa làm ngập lụt, mà là mưa khiến ai cũng nhớ mình đang chiến đấu vì điều gì.</p>
+
+    <div class="dialog villain fade-in">
+      <span class="speaker">Virus Đại Vương</span>
+      "Nhìn đi! Sa mệt rồi! Ba mẹ mệt rồi! Quân của ngươi cũng mệt rồi! Ta chỉ cần kéo dài thêm vài đêm nữa!"
+    </div>
+
+    <p class="story-text fade-in">Tôi bước ra đối diện nó. Áo giáp của tôi xước khắp nơi. Mắt tôi thâm quầng. Giọng tôi khàn đi. Nhưng tôi vẫn đứng.</p>
+
+    <div class="story-image fade-in">
+      <img src="images/final-battle.webp" alt="Sức Đề Kháng đối diện Virus Đại Vương trong trận quyết chiến" loading="lazy">
+    </div>
+
+    <div class="dialog hero-char fade-in">
+      <span class="speaker">Sức Đề Kháng</span>
+      "Vương quốc này mạnh vì dù đau vẫn cố thở, dù đói vẫn cố chịu, dù mệt vẫn tìm vòng tay ba mẹ, dù sốt vẫn bám lấy sự sống từng chút một."
+    </div>
+
+    <p class="story-text fade-in emphasis">"Và vì bên ngoài kia, có hai người lớn cũng đang chiến đấu. Không bằng kiếm. Không bằng giáp. Mà bằng đôi tay mỏi rã, đôi mắt thâm quầng, và một trái tim không bao giờ chịu bỏ cuộc."</p>
+
+    <div class="dialog fade-in">
+      <span class="speaker">Đại thực bào</span>
+      "Cảm động thì không diệt được virus. Nhưng tao thì có."
+    </div>
+
+    <p class="story-text fade-in">Kháng thể bay lên như những tia sáng nhỏ. Tế bào T cầm giáo. Đội Da dựng hàng rào. Đội Niêm Mạc vá cổng miệng. Cô Tiếp Tế đưa nước và năng lượng. Hiệp Sĩ Hạ Sốt kéo nhiệt xuống. Người Ru Ngủ Áo Tím giữ cho thần kinh không quá kích động.</p>
+
+    <p class="story-text fade-in" style="text-align:center; font-size:1.3rem; font-weight:600; color:var(--gold);">Tôi giơ kiếm. "Vì Sa."</p>
+    <p class="story-text fade-in" style="text-align:center; font-size:1.3rem; font-weight:600; color:var(--gold);">Toàn quân đồng thanh: "VÌ SA!"</p>
+
+    <p class="story-text fade-in">Tiếng hô vang khắp vương quốc. Từ lá phổi đến dạ dày. Từ ngón tay đến gót chân. Từ mỗi tế bào nhỏ bé nhất.</p>
+
+    <div class="pull-quote fade-in">Vì một em bé xứng đáng được sống mà không cần phải chịu đựng.</div>
+
+    <div class="divider"><span class="divider-icon">⚔</span></div>
+
+    <p class="story-text fade-in">Không có phép màu nào xảy ra trong một giây. Nhưng từng chút một, cơ thể giành lại quyền kiểm soát.</p>
+    <div class="stagger fade-in">
+      <p class="story-text">Một lần sốt bớt dữ hơn. Một khoảng ngủ dài hơn. Một lần con bớt khóc khi được ôm. Một nốt mụn bắt đầu khô. Một vùng da bớt rát. Một vết loét bớt đỏ.</p>
+      <p class="story-text">Con bú lại được vài ngụm. Con đỡ sốt hơn một chút. Con ngủ thêm được mười phút. Con thôi khóc trong vòng tay mẹ.</p>
+    </div>
+
+    <p class="story-text fade-in">Con mở mắt nhìn ba như muốn nói: <em>"Con vẫn ở đây."</em></p>
+
+    <div class="dialog fade-in">
+      <span class="speaker">Đại thực bào</span>
+      "Đại tướng! Tôi ăn nhiều virus quá, xin cấp thêm khẩu phần." — "Khẩu phần gì?" — "Động viên."
+    </div>
+    <p class="story-text fade-in">"Làm tốt lắm." Đại thực bào đứng nghiêm, nước mắt lưng tròng: "Đủ rồi. Tôi chiến tiếp."</p>
+  </div>
+</section>
+<!-- ==================== CHAPTER 6: BỨC THƯ & LỜI HỨA ==================== -->
+<section class="story-section chapter-section" data-chapter="ch6" id="ch6">
+  <div class="section-content">
+    <div class="chapter-header fade-in">
+      <span class="chapter-number">Chương VI</span>
+      <h2 class="chapter-title">Bức Thư Gửi Ba Mẹ</h2>
+    </div>
+
+    <p class="story-text fade-in">Khi trận chiến dần lắng xuống, tôi ngồi bên trong lồng ngực Sa, cạnh trái tim con.</p>
+    <p class="story-text fade-in">Bên ngoài, ba mẹ có thể vẫn còn rất mệt. Mệt vì những lần sốt không hạ. Mệt vì con đau miệng không bú được. Mệt vì lấy ven hỏng hai lần. Mệt vì bôi da con khóc. Mệt vì mỗi tiếng khóc của con như kéo đứt một sợi dây trong lòng.</p>
+    <p class="story-text fade-in">Tôi muốn gửi cho ba mẹ Sa một bức thư. Không phải thư của bác sĩ. Không phải kết luận xét nghiệm. Mà là thư từ bên trong cơ thể con.</p>
+
+    <div class="story-image fade-in">
+      <img src="images/letter-glow.webp" alt="Bức thư phát sáng ấm áp từ bên trong cơ thể bé Sa" loading="lazy">
+    </div>
+
+    <div class="letter-box fade-in">
+      <p class="letter-greeting">Ba mẹ Sa ơi,</p>
+      <p class="story-text">Con khóc không phải vì ba mẹ làm sai.<br>Con bám không phải vì con hư.<br>Con không chịu đặt xuống không phải vì con muốn làm ba mẹ mệt.</p>
+      <p class="story-text">Con chỉ đang đau.</p>
+      <p class="story-text">Miệng con đau nên sữa cũng trở thành thử thách.<br>Da con rát nên một lần bôi thuốc cũng khiến con sợ.<br>Người con sốt nên con kiệt sức.<br>Thuốc làm mắt con lờ đờ nên con thấy thế giới mơ hồ.<br>Đêm xuống, khi cơ thể con khó chịu, con chỉ còn biết tìm thứ quen nhất: vòng tay ba mẹ.</p>
+      <p class="story-text">Ba mẹ đừng trách mình.<br>Đừng trách mình vì không ngăn được bệnh.<br>Đừng trách mình vì con khóc mà không dỗ được.<br>Đừng trách mình vì đôi lúc cũng muốn khóc theo.</p>
+      <p class="story-text">Mỗi lần ba mẹ bế con, bên trong này chúng tôi nghe được. Không phải bằng tai. Mà bằng nhịp tim con chậm lại một chút. Bằng hơi thở con mềm hơn một chút. Bằng cơ thể con bớt hoảng hơn một chút.</p>
+      <p class="story-text" style="color:var(--gold);">Ba mẹ không chỉ đang bế con.<br>Ba mẹ đang giữ cho cả một vương quốc không sụp đổ.<br>Ba mẹ là bức tường thành cuối cùng mà không vũ khí nào xuyên thủng.</p>
+    </div>
+
+    <div class="divider"><span class="divider-icon">🛡</span></div>
+
+    <p class="story-text fade-in" style="font-weight:600;">Lời hứa của Sức Đề Kháng</p>
+    <p class="story-text fade-in">Tôi không thể hứa rằng từ nay con sẽ không bao giờ sốt nữa. Trẻ con lớn lên là sẽ còn va vào nhiều cơn bệnh.</p>
+    <p class="story-text fade-in">Nhưng tôi hứa một điều. Mỗi khi có kẻ xâm nhập, tôi sẽ đứng dậy.</p>
+
+    <div class="stagger fade-in">
+      <p class="story-text">Khi sốt bùng lên, tôi sẽ gọi Hiệp Sĩ Hạ Sốt phối hợp đúng lúc.</p>
+      <p class="story-text">Khi miệng đau, tôi sẽ bảo đội niêm mạc vá từng vết thương nhỏ.</p>
+      <p class="story-text">Khi ba mẹ kiệt sức, tôi sẽ cố gắng gấp đôi — để bù cho phần mà ba mẹ đã gánh quá nhiều.</p>
+      <p class="story-text">Khi con muốn chơi mà không đủ sức, tôi sẽ thì thầm: "Chờ một chút nữa thôi, mình sẽ lấy lại ngày bình thường."</p>
+    </div>
+
+    <div class="pull-quote fade-in">Có một em bé tên Sa đang cần được thương.</div>
+  </div>
+</section>
+<!-- ==================== CHAPTER 7: NGÀY SA CƯỜI LẠI ==================== -->
+<section class="story-section chapter-section" data-chapter="ch7" id="ch7">
+  <div class="section-content">
+    <div class="chapter-header fade-in">
+      <span class="chapter-number">Chương VII</span>
+      <h2 class="chapter-title">Ngày Sa Cười Lại</h2>
+    </div>
+
+    <p class="story-text fade-in">Rồi sẽ có một ngày, không lâu nữa đâu, Sa bớt đau miệng hơn. Con sẽ bú lại từng chút. Da con sẽ khô dần. Cơn sốt sẽ lùi xa. Mắt con sẽ trong hơn. Con sẽ ngủ một giấc thật hơn.</p>
+    <p class="story-text fade-in">Ba mẹ sẽ đặt con xuống mà con không giật mình tỉnh ngay. Hoặc nếu con tỉnh, đó chỉ là để nhìn quanh, tìm một món đồ chơi, rồi lại ê a như chưa từng có trận chiến này.</p>
+
+    <p class="story-text fade-in emphasis">Có thể Sa sẽ không nhớ. Không nhớ 3 giờ sáng đi khám. Không nhớ sốt 39 độ. Không nhớ những vết loét. Không nhớ hai lần lấy ven hỏng. Không nhớ những đêm ba mẹ bế con mỏi rã tay.</p>
+    <p class="story-text fade-in">Nhưng cơ thể con sẽ nhớ theo một cách khác. Nó sẽ nhớ cách chiến đấu. Nhớ cách hồi phục. Nhớ rằng khi thế giới trở nên khó chịu, luôn có vòng tay quen thuộc giữ con lại.</p>
+
+    <p class="story-text fade-in">Còn ba mẹ sẽ nhớ. Nhớ một mùa bệnh làm tim mình yếu đi vì thương con. Nhớ cảm giác bất lực khi không thể đau thay con. Và rồi, nhớ cả ngày con cười lại.</p>
+    <p class="story-text fade-in emphasis">Ngày mà tất cả nỗi đau bỗng trở thành một câu chuyện. Một câu chuyện mà mỗi khi kể lại, ba mẹ sẽ vừa cười vừa rơi nước mắt.</p>
+
+    <div class="story-image fade-in">
+      <img src="images/sunrise-smile.webp" alt="Em bé Sa cười lại trong vòng tay ba mẹ, ánh sáng bình minh ấm áp" loading="lazy">
+    </div>
+
+    <p class="story-text fade-in">Ngày ấy, trong vương quốc Sa, chúng tôi sẽ mở tiệc.</p>
+
+    <div class="dialog fade-in">
+      <span class="speaker">Đại thực bào</span>
+      "Sau trận này tôi giảm cân thất bại vì ăn virus hơi nhiều."
+    </div>
+    <div class="dialog fade-in">
+      <span class="speaker">Hiệp Sĩ Hạ Sốt</span>
+      "Tôi vào bằng đường nào không quan trọng, tôi đã hoàn thành nhiệm vụ."
+    </div>
+    <div class="dialog fade-in">
+      <span class="speaker">Ông Hồ Nước</span>
+      "Tôi vẫn nghĩ nên thiết kế bao bì hình con vịt."
+    </div>
+    <div class="dialog fade-in">
+      <span class="speaker">Người Ru Ngủ Áo Tím</span>
+      "Tôi xin phép ngủ bù."
+    </div>
+
+    <div class="dialog fade-in">
+      <span class="speaker">Bạch cầu non</span>
+      "Đại tướng, thế là thắng rồi ạ?"
+    </div>
+
+    <div class="stagger fade-in">
+      <p class="story-text">Nếu con bớt đau. Nếu con bú lại. Nếu con ngủ yên. Nếu con cười.</p>
+      <p class="story-text" style="font-weight:600; color:var(--gold); font-size:1.2rem;">"Ừ. Thắng rồi."</p>
+    </div>
+
+    <p class="story-text fade-in">Không phải vì virus biến mất hoàn toàn khỏi thế giới. Mà vì Sa đã đi qua một đêm rất dài. Và vẫn ở đây.</p>
+
+    <div class="stagger fade-in">
+      <p class="story-text" style="text-align:center;">Vẫn thở.</p>
+      <p class="story-text" style="text-align:center;">Vẫn lớn.</p>
+      <p class="story-text" style="text-align:center;">Vẫn được yêu.</p>
+    </div>
+
+    <div class="divider"><span class="divider-icon">🌟</span></div>
+
+    <p class="story-text fade-in" style="text-align:center;">Tôi là Sức Đề Kháng của Sa. Tôi không cần Sa nhớ tên tôi.</p>
+    <p class="story-text fade-in" style="text-align:center;">Chỉ cần một ngày nào đó, con khỏe lại, con cười, con với tay ra chơi, con ngủ ngon trong vòng tay ba mẹ rồi được đặt xuống mà vẫn yên bình…</p>
+    <p class="story-text fade-in emphasis" style="text-align:center;">Tôi sẽ đứng lặng trong bóng tối của cơ thể con, tháo mũ giáp xuống, và mỉm cười.</p>
+
+    <div class="pull-quote fade-in" style="border-color:var(--gold-soft);">
+      "Ngủ đi, Sa.<br><br>
+      Trận này con đã rất giỏi rồi.<br><br>
+      Ba mẹ cũng đã rất giỏi rồi.<br><br>
+      Còn chú, chú vẫn ở đây.<br><br>
+      Lần sau nếu có kẻ nào dám làm con đau nữa…<br><br>
+      <strong>Chú lại gọi toàn quân.</strong>"
+    </div>
+  </div>
+</section>
+
+<!-- ==================== EPILOGUE ==================== -->
+<section class="epilogue fade-in">
+  <div class="section-content" style="max-width:600px;">
+    <p>Câu chuyện này được kể từ bên trong cơ thể một em bé.</p>
+    <p>Nhưng nó được viết cho những ba mẹ đang thức trắng đêm bên giường bệnh.</p>
+    <p>Cho những đôi tay mỏi rã vẫn không chịu đặt con xuống.</p>
+    <p>Cho những giọt nước mắt rơi trong im lặng khi con đã ngủ.</p>
+    <p class="final-line">Các bạn đã rất giỏi rồi. ❤</p>
+  </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer>
+  <div class="share-buttons">
+    <a class="share-btn" href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),'','width=600,height=400');return false;">Chia sẻ Facebook</a>
+    <a class="share-btn" href="#" onclick="navigator.clipboard.writeText(location.href);this.textContent='Đã copy!';return false;">Copy link</a>
+  </div>
+  <p>Một câu chuyện được kể bằng nhịp tim ❤ 2026</p>
+</footer>
+
+<!-- Back to Top -->
+<button id="back-to-top" style="position:fixed;bottom:2rem;left:2rem;z-index:100;width:40px;height:40px;border-radius:50%;background:var(--bg-card);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.1);color:var(--gold);cursor:pointer;font-size:1.2rem;opacity:0;transition:opacity 0.3s;">↑</button>
+
+<script src="script.js" defer></script>
+</body>
+</html>
